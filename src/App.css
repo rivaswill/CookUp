@@ -34,7 +34,7 @@ header img {
 #botones {
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 2px;
 }
 
 /* .button {

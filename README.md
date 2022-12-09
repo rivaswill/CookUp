@@ -37,7 +37,8 @@ By accessing the site, the user can choose their dietary preference and then sel
 CookUp offers recipes for all tastes: if the user follows an animal-based (carnivorous) diet, he can find options with meat, fish and seafood. 
 If you prefer a plant-based diet, you will find a large number of vegetarian and vegan options. Also, if you have celiac disease or gluten intolerance, you will find recipes adapted to your needs. 
 
-Visit us and discover all the possibilities that CookUp has to offer. 
+¡Visit us and discover all the possibilities that CookUp has to offer!.
+
 
 What do you expect from CookUp? 
 

@@ -49,7 +49,7 @@ What do you expect from CookUp?
 
 About the project:
 
-We are Wilson Rivas and Stephanie Fernandez, trainee web developers graduated from Jóvenes a Programar 2022. 
+We are Wilson Rivas and Stephanie Fernandez, web developers trainee graduated from Jóvenes a Programar 2022. 
 The goal of this project is to put into practice the knowledge acquired in Front-end web development (HTML, CSS and JavaScript) and apply our interest in this web project. 
 and apply in this web project our interest to continue learning about frameworks such as React and SASS, in order to deepen their use and operation. 
 In addition, for its implementation we will make use of a REST Freemium API Tasty API, using its free plan that allows 500 requests per month. 

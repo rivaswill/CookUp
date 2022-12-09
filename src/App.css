@@ -10,7 +10,6 @@ header {
 
 header,
 .banner {
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -29,9 +28,7 @@ header img {
     width: 100%;
     height: auto;
   }
-  body {
-    /* background-color: aqua; */
-  }
+ 
 }
 
 #botones {

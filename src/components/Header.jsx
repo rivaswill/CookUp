@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <header>
-      <img id="logo" src="./Images/logo.png" alt="Logo CookUp" />
+      <img id="logo" src="./Images/logo.svg" alt="Logo CookUp" />
     </header>
   );
 };

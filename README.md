@@ -23,7 +23,7 @@ y aplicar en este proyecto web nuestro interés por seguir aprendiendo sobre fra
 Además, para su implementación haremos uso de una API REST Freemium API Tasty, utilizando su plan gratuito que permite 500 solicitudes al mes. 
 
 Sobre la API Tasty:
-"Tasty es una aplicación de recetas de alimentos que ofrece recetas en formato de texto y video. Además, permite a los usuarios buscar recetas por nombre, ingredientes o etiquetas (que son etiquetas que se adjuntan a una receta para categorizarla). Tasty API es una API para Tasty.co . Proporciona varios puntos finales que proporcionan una lista de recetas, detalles de una receta individual, una lista de etiquetas disponibles y mucho más".
+"Tasty es una aplicación de recetas de alimentos que ofrece recetas en formato de texto y video. Además, permite a los usuarios buscar recetas por nombre, ingredientes o etiquetas (que son etiquetas que se adjuntan a una receta para categorizarla). Tasty API es una API para Tasty.co . Proporciona varios endpoints que proporcionan una lista de recetas, detalles de una receta individual, una lista de etiquetas disponibles y mucho más".
 A,Fang. (8 de junio de 2021).How to Use the Tasty API with Java, Python, PHP, Ruby & JavaScript Examples. Nombre del sitio web.https://rapidapi.com/apidojo/api/tasty 
 
 
@@ -50,8 +50,7 @@ What do you expect from CookUp?
 About the project:
 
 We are Wilson Rivas and Stephanie Fernandez, web developers trainee graduated from Jóvenes a Programar 2022. 
-The goal of this project is to put into practice the knowledge acquired in Front-end web development (HTML, CSS and JavaScript) and apply our interest in this web project. 
-and apply in this web project our interest to continue learning about frameworks such as React and SASS, in order to deepen their use and operation. 
+The goal of this project is to put into practice the knowledge acquired in Front-end web development (HTML, CSS and JavaScript) and apply in this web project our interest to continue learning about frameworks such as React and SASS, in order to deepen their use and operation. 
 In addition, for its implementation we will make use of a API REST Freemium API Tasty, using its free plan that allows 500 requests per month. 
 
 About the Tasty API:

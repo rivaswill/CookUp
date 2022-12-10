@@ -1,0 +1,37 @@
+.switch {
+  &-cnt {
+    height: 34px;
+  }
+
+  &-inp {
+    display: block;
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+
+    &:checked + label:after {
+      left: 28px;
+    }
+  }
+
+  &-lbl {
+    position: relative;
+    width: 60px;
+    height: 34px;
+    display: inline-block;
+    background: var(--accent-2);
+    border-radius: 30px;
+    cursor: pointer;
+    &:after {
+      transition: left 0.3s ease;
+      content: "";
+      position: absolute;
+      left: 1.5px;
+      top: 2px;
+      width: 30px;
+      height: 30px;
+      background: var(--main-color);
+      border-radius: 50%;
+    }
+  }
+}

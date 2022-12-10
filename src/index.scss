@@ -1,5 +1,9 @@
 //bases
-@import url(scss/bases/_base.scss);
-@import url(scss/bases/_variable.scss);
+@import 'scss/bases/_variable.scss';
+@import 'scss/bases/_base.scss';
 
 //components
+@import 'scss/components/_banner';
+@import 'scss/components/_button.scss';
+@import 'scss/components/_head&foot.scss';
+@import 'scss/components/_theme.scss';

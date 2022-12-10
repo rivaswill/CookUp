@@ -1,0 +1,41 @@
+.btn {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1.1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 110%;
+    height: 110%;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+  }
+  
+  &_prim {
+    --color: var(--accent-1);
+    &::after {
+      background-color: var(--color);
+    }
+    &:hover {
+      border-color: var(--color);
+    }
+  }
+  &_sec {
+    &::after {
+      background-color: var(--scndary-2);
+    }
+    &:hover {
+      border-color: var(--scndary-1);
+    }
+  }
+}

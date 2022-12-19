@@ -2,21 +2,22 @@ body {
   background: var(--main-color);
 }
 
-//mejorar esto
-#root {
+.app {
+  overflow: hidden;
+  margin: auto;
   max-width: 1280px;
   min-height: 100vh;
   text-align: center;
-  padding: 1rem 3rem;
+  padding: 0 1rem;
   display: grid;
-  grid-template-rows: 3rem 1fr 6rem ;
+  grid-template-rows: 3rem 1fr 3rem ;
 }
 .link {
   font-weight: 500;
-  color: var(--accent-1);
-  text-decoration: inherit;
+  color: var(--orange-1);
+  cursor: pointer;
   &:hover {
-    color: var(--accent-2);
+    color: var(--orange-2);
   }
 }
 .muted {
@@ -30,10 +31,10 @@ body {
   font-size: 2.2em;
   line-height: 1.1;
 }
-.logo {
-  height: 64px;
+
+
+@media (min-width: 768px) {
+  #root {
+    padding: 1rem 3rem;
+  }
 }
-
-// @media (min-width: 768px) {
-
-// }

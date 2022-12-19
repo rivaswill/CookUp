@@ -1,5 +1,73 @@
-header{
+header,
+footer {
+  display: flex;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  .logo {
+    height: 2.5rem;
+  }
+  .menu {
+    cursor: pointer;
+    height: calc(0.3rem*3 + .5rem);
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    .x {
+        width: 2rem;
+        height: 0.3rem;
+        background-color: var(--text);
+        border-radius: 1rem;
+    }
+  }
+  .menu + .switch-cnt{
+    position:absolute;
+    visibility: hidden;
+   }
+  .drop{
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    left: 100vw;
+    top: 0rem;
+    padding: 1rem .5rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 3rem;
+    .switch-cnt{grid-column: 2; grid-row: 2;}
+    &::before{
+      content: '';
+      background-color: var(--main-color);
+      width: inherit;
+      height: inherit;
+      position: absolute;
+      opacity: .7;
+    }
+  }
+  span{
+    position:absolute;
+    visibility: hidden;
+   }
+}
+footer {
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  header {
+    .menu + .switch-cnt,span{
+    position:static;
+    visibility: visible;
+   }
+   .menu{
+    position:absolute;
+    visibility: hidden;
+   }
+  }
 }

@@ -1,15 +1,12 @@
 import React from "react";
 
-const Banner = () => {
+const Banner = ({title,img}) => {
   return (
-    <div id="banner" className="banner">
+    <div className="banner">
       <h1 className="subtitle">
-        ¡Explorá y descubrí todas las{" "}
-        <span className="muted">posibilidades</span> que te ofrecemos acorde a
-        tus necesidades y preferencias alimentarias!
+        {title}
       </h1>
-      <img className="img" src="./Images/1.png" alt="Banner CookUp 1" />
-      <h2>Por favor, selecciona tu tipo de alimentación:</h2>
+      <img className="banner-img" src={img} alt="Banner image" />
     </div>
   );
 };

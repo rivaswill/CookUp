@@ -1,40 +1,33 @@
-import { useState } from "react";
-import Banner from "./components/Banner";
-import Button from "./components/Button";
+import { Routes, Route, useLocation } from "react-router-dom"; //aca usamos las urls
+import { AnimatePresence } from "framer-motion"; //para manejar las animaciones de transición de la pagina
+
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 
-function App() {
-  const [count, setCount] = useState(0);
+import Home from "./pages/Home";
+import Notfound from "./pages/Notfound";
 
-  const xd = [1, 2, 3, 4, 5, 6, 7, 8];
+const Pages = () => {
+  const location = useLocation();
   return (
     <>
-      <Header />
-      <div>
-        <Banner />
-        <div id="botones">
-          <Button
-            id="animal"
-            classTag="btn btn_prim"
-            type="button"
-            text="Origen Animal"
-          />
-          <Button
-            id="plantbased"
-            classTag="btn btn_sec"
-            type="button"
-            text="A base de plantas"
-          />
-          <Button
-            id="glutenfree"
-            classTag="btn btn_prim"
-            type="button"
-            text="Libre de gluten"
-          />
-        </div>
-      </div>
-      <footer></footer>
+      <AnimatePresence mode="wait" initial={false}>
+        <Routes location={location} key={location.pathname}>
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Notfound />} />
+        </Routes>
+      </AnimatePresence>
     </>
+  );
+};
+
+function App() {
+  return (
+    <div className="app">
+      <Header />
+      <Pages />
+      <Footer />
+    </div>
   );
 }
 

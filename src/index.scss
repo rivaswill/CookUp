@@ -1,9 +1,13 @@
 //bases
-@import 'scss/bases/_variable.scss';
-@import 'scss/bases/_base.scss';
+@import 'scss/bases/variable.scss';
+@import 'scss/bases/base.scss';
 
 //components
-@import 'scss/components/_banner';
-@import 'scss/components/_button.scss';
-@import 'scss/components/_head&foot.scss';
-@import 'scss/components/_theme.scss';
+@import 'scss/components/banner';
+@import 'scss/components/button.scss';
+@import 'scss/components/cards.scss';
+@import 'scss/components/head&foot.scss';
+@import 'scss/components/theme.scss';
+
+//pages
+@import 'scss/pages/home';

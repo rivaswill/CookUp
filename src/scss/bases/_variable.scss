@@ -12,26 +12,32 @@
   text-rendering: optimizeLegibility;
   color-scheme: light dark;
 
-  --main-color: #dbd3cd;
+  --main-color: #f2d9bb;
+  --scnd-color: #ac9982;
   --text: #151515;
   --text-muted: #626262;
 
-  --accent-1: #bf5e49;
-  --accent-2: #734230;
-  --scndary-1: #3a6168;
-  --scndary-2: #61969f;
+  --orange-1: #bf5e49;
+  --orange-2: #734230;
+  --blue-1: #3a6168;
+  --blue-2: #61969f;
   --neutral: #f2d9bb;
-
+  --red: #BB0A21;
+  --green :#42c81a;
+  
   &[dataTheme="dark"] {
-    --main-color: #282015d6;
+    --main-color: #2E282A;
+    --scnd-color: #503a40;
     --text: #efefef;
     --text-muted: #a3a3a3;
-
-    --accent-1: #bf5e49;
-    --accent-2: #fec260;
-    --scndary-1: #b4cde6;
-    --scndary-2: #628e90;
-    --neutral: #11  ;
+    
+    --orange-1: #CB6D56;
+    --orange-2: #EDB88B;
+    --blue-1: #b4cde6;
+    --blue-2: #4da7a5;
+    --neutral: #FAD8D6  ;
+    --red: #b43647;
+    --green :#89c776;
 
     .img {
       filter: brightness(0.7) contrast(1.2);

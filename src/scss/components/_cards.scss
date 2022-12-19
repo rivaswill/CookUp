@@ -1,0 +1,12 @@
+.card {
+  text-align: start;
+  background-color: rgba(111, 111, 111, 0.256);
+  display: grid;
+  &-simple {
+    padding: 0.5rem;
+    border-top: 0.5rem var(--blue-2) solid;
+    border-radius: 0.5rem;
+    grid-template-rows: 1rem 2.5rem 1fr auto;
+    gap: .5rem;
+  }
+}

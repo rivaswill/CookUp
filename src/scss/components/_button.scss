@@ -10,19 +10,21 @@
   overflow: hidden;
   cursor: pointer;
   transition: border-color 0.25s;
+  z-index: 1;
   &::after {
     content: "";
+    z-index: -1;
     position: absolute;
     display: block;
     width: 110%;
     height: 110%;
     top: 0;
     left: 0;
-    opacity: 0.2;
+    opacity: 0.4;
   }
   
-  &_prim {
-    --color: var(--accent-1);
+  &_orange {
+    --color: var(--orange-1);
     &::after {
       background-color: var(--color);
     }
@@ -30,12 +32,30 @@
       border-color: var(--color);
     }
   }
-  &_sec {
+  &_blue {
     &::after {
-      background-color: var(--scndary-2);
+      background-color: var(--blue-2);
     }
     &:hover {
-      border-color: var(--scndary-1);
+      border-color: var(--blue-1);
+    }
+  }
+  &_green {
+    --color: var(--green);
+    &::after {
+      background-color: var(--color);
+    }
+    &:hover {
+      border-color: var(--color);
+    }
+  }
+  &_red {
+    --color: var(--red);
+    &::after {
+      background-color: var(--color);
+    }
+    &:hover {
+      border-color: var(--color);
     }
   }
 }
